@@ -49,8 +49,9 @@ This project helps beginners learn Python OOP step by step, from core concepts t
 
 ### 3) Calculator App
 - Uses a `Calculator` class
-- Shows class methods for arithmetic operations
-- Includes operation history and divide-by-zero handling
+- Shows class methods for arithmetic operations (`+`, `-`, `*`, `/`, `**`, `%`)
+- Includes operation history, clear history, and simple input validation
+- Handles edge cases like divide-by-zero safely
 
 ## How to run
 
