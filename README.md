@@ -19,6 +19,9 @@ This project is now organized into separate folders so beginners can learn objec
 - `real_app/` -> real-world OOP mini app
 	- `grading_system.py`
 	- `demo.py`
+- `library_system/` -> second real-world beginner project
+	- `library_management.py`
+	- `demo.py`
 
 ## Concepts covered
 
@@ -39,6 +42,12 @@ This project is now organized into separate folders so beginners can learn objec
 3. Inheritance with `Student` extending `Person`
 4. Practical methods: add students, add scores, generate reports
 
+### Real app project 2
+1. Library management system using `Book`, `Member`, and `Library` classes
+2. Practical methods: add books, register members, issue and return books
+3. State handling with `is_issued` for each book
+4. Useful output for beginner understanding
+
 ## How to run
 
 1. Open terminal in this folder
@@ -58,4 +67,5 @@ python3 main.py
 
 Start with files inside `basic_oop/` first, then continue to `inheritance/`.
 Then open `real_app/grading_system.py` to see how OOP is used in a practical app.
+After that, open `library_system/library_management.py` for another simple real-world project.
 Each file contains a small runnable example and `main.py` runs everything together.
