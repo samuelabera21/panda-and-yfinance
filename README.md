@@ -22,6 +22,9 @@ This project is now organized into separate folders so beginners can learn objec
 - `library_system/` -> second real-world beginner project
 	- `library_management.py`
 	- `demo.py`
+- `calculator_app/` -> simple calculator OOP project
+	- `calculator.py`
+	- `demo.py`
 
 ## Concepts covered
 
@@ -48,6 +51,12 @@ This project is now organized into separate folders so beginners can learn objec
 3. State handling with `is_issued` for each book
 4. Useful output for beginner understanding
 
+### Real app project 3
+1. Calculator app using a `Calculator` class
+2. Basic operations: add, subtract, multiply, divide
+3. Simple encapsulation with private operation history
+4. Error case handling for divide by zero
+
 ## How to run
 
 1. Open terminal in this folder
@@ -68,4 +77,5 @@ python3 main.py
 Start with files inside `basic_oop/` first, then continue to `inheritance/`.
 Then open `real_app/grading_system.py` to see how OOP is used in a practical app.
 After that, open `library_system/library_management.py` for another simple real-world project.
+Then open `calculator_app/calculator.py` for a very simple class-based app.
 Each file contains a small runnable example and `main.py` runs everything together.
