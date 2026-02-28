@@ -16,6 +16,9 @@ This project is now organized into separate folders so beginners can learn objec
 	- `multilevel_inheritance.py`
 	- `hierarchical_inheritance.py`
 	- `demo.py`
+- `real_app/` -> real-world OOP mini app
+	- `grading_system.py`
+	- `demo.py`
 
 ## Concepts covered
 
@@ -29,6 +32,12 @@ This project is now organized into separate folders so beginners can learn objec
 1. Single inheritance
 2. Multilevel inheritance
 3. Hierarchical inheritance
+
+### Real app example
+1. Student grading system using classes and objects
+2. Encapsulation with internal student/score storage
+3. Inheritance with `Student` extending `Person`
+4. Practical methods: add students, add scores, generate reports
 
 ## How to run
 
@@ -48,4 +57,5 @@ python3 main.py
 ## Learning tip
 
 Start with files inside `basic_oop/` first, then continue to `inheritance/`.
+Then open `real_app/grading_system.py` to see how OOP is used in a practical app.
 Each file contains a small runnable example and `main.py` runs everything together.
