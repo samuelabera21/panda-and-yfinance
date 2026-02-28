@@ -1,51 +1,34 @@
-# Basic Python Concepts: Array, Abstraction, and Polymorphism
+# Python OOP Beginner Guide
 
-This mini project explains three beginner-friendly OOP and data concepts in Python:
+This project is now organized into separate folders so beginners can learn object-oriented programming step by step.
 
-1. **Array (List) basics**
-2. **Abstraction**
-3. **Polymorphism**
+## Project structure
 
----
+- `main.py` -> runs all demos
+- `basic_oop/` -> basic OOP concepts
+	- `class_and_object.py`
+	- `encapsulation.py`
+	- `abstraction.py`
+	- `polymorphism.py`
+	- `demo.py`
+- `inheritance/` -> inheritance-focused examples
+	- `single_inheritance.py`
+	- `multilevel_inheritance.py`
+	- `hierarchical_inheritance.py`
+	- `demo.py`
 
-## File
+## Concepts covered
 
-- `main.py` -> contains all examples
+### Basic OOP
+1. Class and object
+2. Encapsulation
+3. Abstraction
+4. Polymorphism
 
----
-
-## What this code shows
-
-### 1) Array (List) basics
-In Python, we usually use a **list** as an array-like structure.
-
-In `array_demo(numbers)`, you can see:
-- create a list
-- add item with `append`
-- update item using index
-- get length with `len`
-- find total with `sum`
-- calculate average
-
-### 2) Abstraction
-`Animal` is an **abstract class** (using `ABC`).
-
-- It defines a method `speak()`
-- It does not give actual sound
-- Child classes must implement it
-
-This hides the implementation details and gives a common interface.
-
-### 3) Polymorphism
-`Dog`, `Cat`, and `Cow` all implement `speak()` differently.
-
-In `animal_sound_demo(animals)`, we loop through one list and call:
-
-`animal.speak()`
-
-Same method name, different output depending on object type. This is polymorphism.
-
----
+### Inheritance
+1. Single inheritance
+2. Multilevel inheritance
+3. Hierarchical inheritance
 
 ## How to run
 
@@ -62,21 +45,7 @@ If your system uses `python3`, run:
 python3 main.py
 ```
 
----
+## Learning tip
 
-## Example output
-
-```text
-ARRAY DEMO
-Original list: [10, 20, 30]
-After append(40): [10, 20, 30, 40]
-After changing index 0 to 99: [99, 20, 30, 40]
-Length: 4
-Sum: 189
-Average: 47.25
-
-ABSTRACTION + POLYMORPHISM DEMO
-Dog says Woof!
-Cat says Meow!
-Cow says Moo!
-```
+Start with files inside `basic_oop/` first, then continue to `inheritance/`.
+Each file contains a small runnable example and `main.py` runs everything together.
